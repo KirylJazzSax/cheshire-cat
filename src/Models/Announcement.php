@@ -18,7 +18,7 @@ class Announcement
     public $price;
     private $errors;
     private $pdo;
-    private $perPage = 2;
+    private $perPage = 10;
 
     public function __construct(PDO $pdo)
     {
